@@ -13,15 +13,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 
-<body class="p-3 bg-dark text-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger p-3">
         <a class="navbar-brand" href="#">Web comics</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -42,31 +40,37 @@
         </div>
     </nav>
 
-    <main>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Superheroes</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+    <img src="./img/header.jpg" class="w-100">
+
+
+    <main class="grid-container p-3">
+        <div class="row justify-content-around">
+            <div class="card col-12 col-lg-3 m-1">
+                <img class="card-img-top rounded mt-2" src="./img/theBoys.jpg" alt="Superheroes">
+                <div class="card-body">
+                    <h5 class="card-title">Superheroes</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-danger w-100">See more</a>
+                </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Superheroes</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card col-12 col-lg-3 m-1">
+                <img class="card-img-top rounded mt-2" src="./img/sandman.webp" alt="Sci-fy">
+                <div class="card-body">
+                    <h5 class="card-title">Sci-fy</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-danger w-100">See more</a>
+                </div>
             </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Superheroes</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card col-12 col-lg-3 m-1">
+                <img class="card-img-top rounded mt-2" src="./img/deathNote.jpg" alt="Manga">
+                <div class="card-body">
+                    <h5 class="card-title">Manga</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-danger w-100">See more</a>
+                </div>
             </div>
-          </div>
+        </div>
+      
     </main>
 </body>
 
