@@ -18,9 +18,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger p-3">
         <a class="navbar-brand" href="./index.html">Web comics</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
@@ -36,13 +36,58 @@
                     <a class="nav-link" href="./catalogo.html#manga">Manga</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contacto">Contact us</a>
+                    <a class="nav-link" href="./contacto.html">Contact us</a>
                 </li>
             </ul>
 
-            
+
         </div>
     </nav>
+
+    <div class="container m-5 d-flex flex-column">
+        <h2 class="text-center">Contact form</h2>
+
+        <form class="border border-light rounded mt-4 p-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="mb-3">
+                <label for="surname" class="form-label">Surname</label>
+                <input type="text" class="form-control" id="surname" placeholder="Surname">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="email" placeholder="yourmail@gmail.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="name" class="form-label">Select why you are contacting us</label>
+                <select class="form-control">
+                    <option>Request more information</option>
+                    <option>I want to report an issue</option>
+                    <option>Others</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="description" class="form-label">Description</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Something you want to add?"></textarea>
+
+            </div>
+
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="check">
+                <label for="check" class="form-check-label">I have read the terns and policy</label>
+            </div>
+            <div class="align-items-left">
+                <button type="submit" class="btn btn-lg btn-danger">
+                    <i class="bi bi-send"></i> Submit
+                </button>
+            </div>
+        </form>
+    </div>
+
     <footer class="py-4 bg-danger text-white text-center">
         <p class="mb-1">© 2024 Web Comics. All rights reserved.</p>
         <ul class="nav justify-content-center">
